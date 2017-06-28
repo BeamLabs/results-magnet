@@ -31,10 +31,19 @@ hr {
   margin-top: 50px;
 }
 
+.square-img {
+    margin: 0 auto;
+  }
+
+.offer-icon {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .pic-title {
   position: absolute;
   top: 74%;
-  left: 10%;
+  left: 28%;
 }
 
 .about-info {
@@ -100,10 +109,6 @@ hr {
 
   .about-info {
     width: 100%;
-  }
-
-  .square-img {
-    margin: 0 auto;
   }
 
   .properties-button {
