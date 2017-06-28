@@ -1,0 +1,64 @@
+.topnav {
+  border-radius: 0px;
+  height: 130px;
+  position: relative
+}
+
+.navbar > .container {
+  width: 100%;  
+}
+
+.nav-items {
+  position: relative;
+  top: 80px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  z-index: 1000;
+}
+
+.nav-items > li {
+  padding-left: 40px;
+}
+
+.navbar-inverse .navbar-nav>.active>a  {
+  background-color: #222;
+}
+.navbar-inverse .navbar-nav>.active>a:hover  {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.open>a:hover  {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: #222;
+}
+
+.open>.dropdown-menu {
+  z-index: 10000;
+}
+
+@media only screen and (max-width: 859px) {
+
+  .topnav {
+    height: auto;
+  }
+
+  .nav-items {
+    position: relative;
+    float: none;
+    transform: translate(0%, 0%);
+    top: 0;
+    left: 0;
+  }
+
+  .nav-items > li {
+    padding-left: inherit;
+  }
+}
