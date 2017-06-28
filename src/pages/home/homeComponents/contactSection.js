@@ -15,7 +15,7 @@ class ContactSection extends Component {
                 <Col lg={6} md={6} className="contact-info">
                     <p className="contact-name">Chaiten Maycott</p>
                     <p>(555) 555-555-5555</p>
-                    <p>chaiten@resultsmagnet.net</p>
+                    <p>chaitin@resultsmagnet.net</p>
                     <p>123 Main Street</p>
                     <p>Atlanta, GA 30306</p>
                 </Col>
