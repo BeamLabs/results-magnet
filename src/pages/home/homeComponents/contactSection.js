@@ -13,9 +13,9 @@ class ContactSection extends Component {
             </Row>
             <Row>
                 <Col lg={6} md={6} className="contact-info">
-                    <p className="contact-name">Monica Kinnebrew</p>
-                    <p>(402) 927-3152</p>
-                    <p>tekbrew@cox.net</p>
+                    <p className="contact-name">Chaiten Maycott</p>
+                    <p>(555) 555-555-5555</p>
+                    <p>chaiten@resultsmagnet.net</p>
                     <p>123 Main Street</p>
                     <p>Atlanta, GA 30306</p>
                 </Col>
@@ -24,7 +24,7 @@ class ContactSection extends Component {
                     </iframe>
                 </Col>
             </Row>
-            <h2 style={{marginTop: '50px'}}>Leave a Message</h2>
+            <h2 style={{marginTop: '50px'}}>Ask us how we can grow your business</h2>
             <FormComponent />
         </Grid>
     );

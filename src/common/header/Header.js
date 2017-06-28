@@ -37,7 +37,7 @@ class Header extends Component {
       <Navbar inverse collapseOnSelect className="topnav">
         <Navbar.Header>
           <Navbar.Brand>
-            <p>KingsLand Farm</p>
+            <p>Results Magnet</p>
           </Navbar.Brand>
           <Navbar.Toggle/>
         </Navbar.Header>
@@ -47,32 +47,21 @@ class Header extends Component {
               <NavItem eventKey={1}>Home</NavItem>
             </LinkContainer>
             <LinkContainer to="/about">
-              <NavItem eventKey={2}>About</NavItem>
+              <NavItem eventKey={2}>Products</NavItem>
             </LinkContainer>
 
-            <NavDropdown eventKey={3} title="Experiences" id="experience-navdropdown" onMouseEnter={this.handleExpOpen} onMouseLeave={this.handleExpClose} open={this.state.isExpOpen} onToggle={this.handleExpOpen}>
-              <LinkContainer to="/events">
-                <MenuItem eventKey={3.1}>Events</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/vacations">
-                <MenuItem eventKey={3.2}>Vacations</MenuItem>
-              </LinkContainer>
-            </NavDropdown>
+            <LinkContainer to="/process">
+              <NavItem eventKey={3}>Our Process</NavItem>
+            </LinkContainer>
 
-            <NavDropdown eventKey={4} title="Properties" id="property-navdropdown"  onMouseEnter={this.handlePropOpen} onMouseLeave={this.handlePropClose} open={this.state.isPropOpen} onToggle={this.handlePropOpen}>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.1}>SummerHaven</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.2}>Lake Joy House</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.3}>Cottage</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/properties">
-                <MenuItem eventKey={4.1}>Stables</MenuItem>
-              </LinkContainer>
-            </NavDropdown>
+            <LinkContainer to="/beneficiaries">
+              <NavItem eventKey={4}>Beneficiaries</NavItem>
+            </LinkContainer>
+
+            <LinkContainer to="/contact">
+              <NavItem eventKey={5}>Contact</NavItem>
+            </LinkContainer>
+           
           </Nav>
         </Navbar.Collapse>
       </Navbar>

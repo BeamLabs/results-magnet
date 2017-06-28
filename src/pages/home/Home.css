@@ -27,6 +27,10 @@ hr {
   margin-top: 40px
 }
 
+.aboutSection-row {
+  margin-top: 50px;
+}
+
 .pic-title {
   position: absolute;
   top: 74%;
