@@ -5,33 +5,6 @@ import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
 class Header extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {isExpOpen: false, isPropOpen: false}
-
-    this.handleExpClose = this.handleExpClose.bind(this)
-    this.handleExpOpen = this.handleExpOpen.bind(this)
-
-    this.handlePropClose = this.handlePropClose.bind(this)
-    this.handlePropOpen = this.handlePropOpen.bind(this)
-  }
-
-  //Handlers for hovering on dropdown to open immediately instead on onClick
-  handleExpOpen() {
-    this.setState({isExpOpen: true})
-  }
-  handleExpClose() {
-    this.setState({isExpOpen: false})
-  }
-
-  handlePropOpen() {
-    this.setState({isPropOpen: true})
-  }
-  handlePropClose() {
-    this.setState({isPropOpen: false})
-  }
-
   render() {
     return (
       <Navbar inverse collapseOnSelect className="topnav">
