@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import AboutSection from './homeComponents/aboutSection';
 import OfferingsSection from './homeComponents/offeringsSection';
 import ContactSection from './homeComponents/contactSection';
+import HomeFormComponent from './homeComponents/HomeFormComponent';
 import {Grid, Row, Col, Image} from 'react-bootstrap';
 import './Home.css';
 
@@ -18,6 +18,7 @@ class Home extends Component {
         </Grid>
           <OfferingsSection/>
           <ContactSection />
+          <HomeFormComponent/>
       </div>
     );
   }
