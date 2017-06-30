@@ -33,11 +33,23 @@ hr {
 
 .square-img {
     margin: 0 auto;
-  }
+}
+
+.top-offer-icon-section {
+  margin-top: 50px;
+}
 
 .offer-icon {
-  margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.fa-icon {
+  color: #2d8c9c; 
+}
+
+.middle-icon {
+  position: relative;
+  left: 25%;
 }
 
 .pic-title {
@@ -95,8 +107,12 @@ hr {
   text-align: left;
 }
 
+.form-input {
+  width: 80%;
+}
+
 .contact-submit-button {
-  width: 100%;
+  width: 50%;
   height: 50px;
 }
 
@@ -131,9 +147,15 @@ hr {
   }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 992px) {
+  .middle-icon {
+    left: 0;
+  }
+}
 
-  .contact-form {
+@media only screen and (max-width: 768px) {
+
+  .form-input {
     width: 100%;
   }
 }
