@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
 class Header extends Component {
@@ -19,22 +18,18 @@ class Header extends Component {
             <LinkContainer to="/">
               <NavItem eventKey={1}>Home</NavItem>
             </LinkContainer>
-            <LinkContainer to="/about">
-              <NavItem eventKey={2}>Products</NavItem>
+            <LinkContainer to="/offerings">
+              <NavItem eventKey={2}>Offerings</NavItem>
             </LinkContainer>
-
-            <LinkContainer to="/process">
-              <NavItem eventKey={3}>Our Process</NavItem>
+            <LinkContainer to="/showcase">
+              <NavItem eventKey={3}>Secert Sauce Showcase</NavItem>
             </LinkContainer>
-
+            <LinkContainer to="/story">
+              <NavItem eventKey={4}>Our Story</NavItem>
+            </LinkContainer>
             <LinkContainer to="/beneficiaries">
-              <NavItem eventKey={4}>Beneficiaries</NavItem>
+              <NavItem eventKey={5}>Meaningful Beneficiaries</NavItem>
             </LinkContainer>
-
-            <LinkContainer to="/contact">
-              <NavItem eventKey={5}>Contact</NavItem>
-            </LinkContainer>
-           
           </Nav>
         </Navbar.Collapse>
       </Navbar>
