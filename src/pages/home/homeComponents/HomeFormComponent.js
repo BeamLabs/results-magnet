@@ -56,11 +56,6 @@ class HomeFormComponent extends Component {
                         </Col>
                     </FormGroup>
                     <button type="submit" className="contact-submit-button">Submit</button>
-
-                    {/* Tier Three */}
-                    <FormGroup controlId="homeFormSlider-budget">
-                        <h1>SLIDERS GO HERE WIP</h1>
-                    </FormGroup>
                 </Form>
             </Grid>
         );
@@ -68,3 +63,4 @@ class HomeFormComponent extends Component {
 }
 
 export default HomeFormComponent;
+

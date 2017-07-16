@@ -14,7 +14,7 @@ class OfferingsSection extends Component {
         </Row>
         <Row className="top-offer-icon-section">
             <Col md={6} sm={12} className="offer-icon">
-                <i className="fa fa-camera fa-3x fa-icon" aria-hidden="true"></i>
+                <i className="fa fa-users fa-3x fa-icon" aria-hidden="true"></i>
                 <h3>Social Media</h3>
                 <p>Social media is responsible for bringing new and repeat customers to your website/location and gaining revenue.</p>
             </Col>

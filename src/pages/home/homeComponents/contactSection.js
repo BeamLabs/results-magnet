@@ -13,7 +13,7 @@ class ContactSection extends Component {
             </Row>
             <Row>
                 <Col lg={6} md={6} className="contact-info">
-                    <p className="contact-name">Chaiten Maycott</p>
+                    <p className="contact-name">Chaitin Maycott</p>
                     <p>(770) 312-7371</p>
                     <p>cmaycott@resultsmagnet.com</p>
                     <p>2321 Brookhaven View NE</p>
