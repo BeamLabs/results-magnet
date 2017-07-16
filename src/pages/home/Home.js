@@ -18,7 +18,6 @@ class Home extends Component {
         </Grid>
           <OfferingsSection/>
           <ContactSection />
-          <HomeFormComponent/>
       </div>
     );
   }

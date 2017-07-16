@@ -4,7 +4,7 @@ import {FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
 class FormComponent extends React.Component {
     render() {
         return (
-            <form className="contact-form" method="POST" action="http://formspree.io/jacob@beamlabs.net">
+            <form className="contact-form" method="POST" action="http://formspree.io/andre@beamlabs.net">
                 <FormGroup>
                     <ControlLabel>First Name</ControlLabel>
                     <FormControl type="text" placeholder="Enter your first name" name="firstName" bsSize="lg" required/>

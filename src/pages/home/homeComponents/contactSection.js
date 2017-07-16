@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
+import FormComponent from '../../../common/components/FormComponent';
 
 class ContactSection extends Component {
   render() {
@@ -24,6 +25,7 @@ class ContactSection extends Component {
                 </Col>
             </Row>
             <h2 style={{marginTop: '50px'}}>Ask us how we can grow your business</h2>
+            <FormComponent />
         </Grid>
     );
   }

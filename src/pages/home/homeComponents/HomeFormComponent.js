@@ -7,6 +7,14 @@ class HomeFormComponent extends Component {
         return (
             <Grid>
                 <Form horizontal>
+                    {/*Tier one*/}
+                    <FormGroup>
+                        <ControlLabel>Would a free and brief consultation discussion help you?</ControlLabel>
+                        <Radio inline name="tier-one">Yes</Radio>
+                        <Radio inline name="tier-one">No</Radio>
+                    </FormGroup>
+
+                    {/*Tier Two*/}
                     <FormGroup controlId="homeForm-FirstName">
                         <Col sm={2} componentClass={ControlLabel}>
                             First Name
@@ -55,3 +63,4 @@ class HomeFormComponent extends Component {
 }
 
 export default HomeFormComponent;
+
