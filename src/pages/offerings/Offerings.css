@@ -1,0 +1,27 @@
+.offerings-title {
+    font-size: 60px;
+}
+
+
+.info-paragraph {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin: 60px auto;
+}
+
+.section-title {
+    font-size: 35px;
+}
+
+.title-panel >.panel-heading > h4{
+    font-size: 20px;
+}
+
+.panel-info-text {
+    text-align: left;
+    font-size: 18px;
+}
