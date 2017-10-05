@@ -34,11 +34,8 @@ class Header extends Component {
               <LinkContainer to="/beneficiaries">
                 <MenuItem eventKey={6.2}>Meaningful Beneficiaries</MenuItem>
               </LinkContainer>
-              <LinkContainer to="/beneficiaries">
+              <LinkContainer to="/faq">
                 <MenuItem eventKey={6.3}>FAQ's</MenuItem>
-              </LinkContainer>
-              <LinkContainer to="/beneficiaries">
-                <MenuItem eventKey={6.4}>Book an appointment today!</MenuItem>
               </LinkContainer>
             </NavDropdown>
           </Nav>
